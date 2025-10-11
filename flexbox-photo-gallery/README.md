@@ -19,3 +19,10 @@ The gap CSS shorthand property sets the gaps, also known as gutters, between row
 
 ## Step 23
 The ::after pseudo-element creates an element that is the last child of the selected element. You can use it to add an empty element after the last image. If you give it the same width as the images it will push the last image to the left when the gallery is in a two-column layout. Right now, it is in the center because you set justify-content: center on the flex container.
+
+```css
+.container::after {
+  content: "";
+  width: 860px;
+}
+```
