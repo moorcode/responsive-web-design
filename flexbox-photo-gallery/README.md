@@ -1,7 +1,7 @@
 #Notes from freeCodeCamp to add as comments on CSS file
 
 ##Step 8 
-browsers calculate the size of container elements in a way that extends image borders beyond its container
+Browsers calculate the size of container elements in a way that extends image borders beyond its container
 The box-sizing property is used to set this behavior. By default, the content-box model is used. With this model, when an element has a specific width, that width is calculated based only on the element's content. Padding and border values get added to the total width, so the element grows to accommodate these values.
 
 ##Step 9
