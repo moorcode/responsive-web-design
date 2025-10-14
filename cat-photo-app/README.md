@@ -1,0 +1,1 @@
+figcaption goes inside the figure element
