@@ -19,3 +19,11 @@ Before you get too far into your styling, you should make use of the sr-only cla
 The CSS you are about to write is a common set of properties used to ensure elements are completely hidden visually.
 
 The span[class~="sr-only"] selector will select any span element whose class includes sr-only. Create that selector, and give it a border property set to 0.
+
+## Step 31
+The CSS clip property is used to define the visible portions of an element. Set the span[class~="sr-only"] selector to have a clip property of rect(1px, 1px, 1px, 1px).
+
+The clip-path property determines the shape the clip property should take. Set the clip-path property to the value of inset(50%), forming the clip-path into a rectangle within the element.
+
+# Step 33
+To prevent the text content from overflowing, give your span[class~="sr-only"] selector an overflow property set to hidden and a white-space property set to nowrap.
